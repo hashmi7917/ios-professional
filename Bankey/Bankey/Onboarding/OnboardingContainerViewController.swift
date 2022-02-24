@@ -55,7 +55,7 @@ class OnboardingContainerViewController: UIViewController {
             view.bottomAnchor.constraint(equalTo: pageViewController.view.bottomAnchor),
         ])
         
-        pageViewController.setViewControllers([pages.first!], direction: .forward, animated: true, completion: nil)
+        pageViewController.setViewControllers([pages.first!], direction: .forward, animated: false, completion: nil)
         currentVC = pages.first!
     }
 }
